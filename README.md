@@ -19,12 +19,12 @@ To run Key Shooter, you will need:
 * The game will display your results, including your WPM (words per minute).
 # Code Overview
 The Main class serves as the entry point for the application. It sets up the JavaFX window and controls the game's logic. Here are some key sections of the code:
-* GUI Setup: The JavaFX window is created with various components, including score labels, word display, keyboard, and control inputs.
-* Word Generation: Words fall from the top of the screen, and new words are generated at a specified spawn rate.
-* User Input: The game captures keyboard input and checks if the typed letters match the falling words.
-* Game Over: The "STOP" button ends the game and calculates the player's WPM based on their performance.
+* **GUI Setup:** The JavaFX window is created with various components, including score labels, word display, keyboard, and control inputs.
+* **Word Generation:** Words fall from the top of the screen, and new words are generated at a specified spawn rate.
+* **User Input:** The game captures keyboard input and checks if the typed letters match the falling words.
+* **Game Over:** The "STOP" button ends the game and calculates the player's WPM based on their performance.
 # Customization
 You can customize the game by adjusting the spawn rate and word duration:
-* spawnRate: Control how often new words spawn.
-* wordDuration: Set how long each word stays on the screen.
+* **spawnRate:** Control how often new words spawn.
+* **wordDuration:** Set how long each word stays on the screen.
 * Modify the values in the input fields and click the "CHANGE" button to apply your changes.
